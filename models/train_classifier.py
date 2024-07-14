@@ -84,6 +84,15 @@ def load_data(database_filepath):
     
     X = df['message']
     Y = df.drop(['id', 'message', 'original', 'genre'], axis=1)
+    print("Size before modelling",Y.shape)
+    #------------
+    print("missing values", Y.isna().sum())
+     # Drop rows with NaN values in Y
+    X = X[~Y.isnull().any(axis=1)]
+    Y = Y.dropna()
+    #---------------
+    print("Y shape is:", Y.shape)
+    print("Any missing values?", Y.isna().sum())
     categories = Y.columns
     
     # Snapshot of the data after processing

@@ -30,8 +30,8 @@ The Disaster Response Pipeline project includes:
     - `master.html`: HTML template for the main page.
 
 - `data`
-  - `disaster_categories.csv`: Data file containing the categories of messages.
-  - `disaster_messages.csv`: Data file containing the messages.
+  - `categories.csv`: Data file containing the categories of messages.
+  - `messages.csv`: Data file containing the messages.
   - `DisasterResponse.db`: SQLite database containing the cleaned data.
   - `process_data.py`: Python script to process the data and save it to the database.
 

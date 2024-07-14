@@ -4,6 +4,7 @@
 # Disaster Response Pipeline Project
 
 This project is part of the Udacity Data Scientist Nanodegree program. The goal of this project is to build a machine learning pipeline to categorize real messages that were sent during disaster events. The project includes a web app where an emergency worker can input a new message and get classification results in multiple categories. The web app also displays visualizations of the data.
+Please use this link to access the repo - https://github.com/Sylivera/Disaster_Response_Udacity.git
 
 ## Table of Contents
 
@@ -89,7 +90,7 @@ cd app
 python run.py
 ```
 
-Open your browser and go to `http://0.0.0.0:3001/` to use the web app.
+Open your browser and go to `http://0.0.0.0:3002/` to use the web app.
 
 ## Function Documentation
 

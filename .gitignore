@@ -10,3 +10,8 @@ __pycache__/
 
 # Ignore environment variables file
 .env
+models/classifier.pkl
+*.pyc
+__pycache__/
+.DS_Store
+.env

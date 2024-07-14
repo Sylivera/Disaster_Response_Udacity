@@ -43,7 +43,7 @@ def clean_data(df):
     category_colnames = row.apply(lambda x: x[:-2])
     print('The new column names are:',category_colnames)
     categories.columns = category_colnames
-    print("Split categories data:", categories.head(2)   
+    print("Split categories data:", categories.head(2))   
     
     # Remove the categories column from the main df 
     df.drop('categories', axis=1, inplace=True)
@@ -96,3 +96,4 @@ def main():
               'DisasterResponse.db')
 
 if __name__ == '__main__':
+    main()

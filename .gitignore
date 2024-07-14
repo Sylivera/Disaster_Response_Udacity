@@ -1,0 +1,12 @@
+# Ignore model file
+models/classifier.pkl
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore environment variables file
+.env

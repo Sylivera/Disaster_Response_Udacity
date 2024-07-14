@@ -90,7 +90,7 @@ cd app
 python run.py
 ```
 
-Open your browser and go to `http://0.0.0.0:3001/` to use the web app.
+Open your browser and go to `http://0.0.0.0:3002/` to use the web app.
 
 ## Function Documentation
 
